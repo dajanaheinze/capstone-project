@@ -3,8 +3,7 @@
 export default function App() {
   return (
     <div className="App">
-      <header>MINDRESET</header>
-      <h1>Hello world</h1>
+      <h1>mindreset App</h1>
     </div>
   );
 }
