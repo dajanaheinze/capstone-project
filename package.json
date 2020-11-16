@@ -41,7 +41,4 @@
     "react-styleguidist": "^11.1.2"
   }
 
-    "resolutions": {
-      "styled-components": "^5"
-    }
 }
