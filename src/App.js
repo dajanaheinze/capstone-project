@@ -4,10 +4,17 @@ import TutorialTemplate from './TutorialTemplate'
 
 export default function App() {
   return (
-    <div className="App">
+      <PageLayout>
         <TutorialTemplate/>    
-      </div>
+      </PageLayout>
   );
 }
+
+const PageLayout = styled.div`
+  display: grid;
+  grid-template-rows: 80px auto;
+  position: relative;
+  margin: 0;
+`
 
 
