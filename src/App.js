@@ -1,4 +1,4 @@
-
+import styled from 'styled-components/macro';
 
 export default function App() {
   return (
