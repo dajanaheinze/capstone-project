@@ -15,7 +15,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "styleguide": "FAST_REFRESH=false styleguidist server",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,8 +36,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "react-styleguidist": "^11.1.2"
+  "resolutions": {
+    "styled-components": "^5"
   }
-
 }
