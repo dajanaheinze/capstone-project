@@ -9,19 +9,23 @@ export default createGlobalStyle`
 body {
     margin:0;
     font-size: 112.5%;
-    background-color:#A5A697;
+    background-color: #A5A697;
     color: #262626;
-    
 
 
 /* :root {
-    --blue-main: #193251;
-    */
+    --background-primary: #A5A697;
+    --background-secendary: #F2F2F2;
+    --text-primary: #262626;
+    --border-primary: #F2F2F2;*/
 
 }
 `
 
-/*Color Theme Swatches in Hex 
+
+
+/*
+Color Theme Swatches in Hex 
 .KOTLIC-LAMP-1-hex lightkhaki{ color: #BFBFAA; }
 .KOTLIC-LAMP-2-hex middlkhaki{ color: #A5A697; }
 .KOTLIC-LAMP-3-hex darkkhaki{ color: #73715F; }
