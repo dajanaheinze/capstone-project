@@ -7,38 +7,41 @@ export default function TutorialTemplate (){
     return (
     <TutorialWrapper>
         <img src={meditation} alt=""/>
-            <h2>Meditation</h2>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur </li>
-                    <li>Quos accusamus libero minus ullam, beatae p</li>
-                    <li>libero minus ullam, beatae possimus nostr</li>
-                </ul>
+        <h2>Meditation</h2>
+        <p>Lorem ipsum dolor sit amet consectetur Quos accusamus libero minus ullam, beataelibero minus ullam, beatae possimus nostr</p>
     </TutorialWrapper>
     )   
 }
 
 const TutorialWrapper = styled.div`
     display: grid;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2; 
+    border-radius: 5px; 
+    margin-left: 40px;
+    margin-top: 30px;
     place-items: center;
-    border: 10px black;
-    margin-top: 25px;
-
+    width: 80%;
 
     img {
-        width: 350px;
-        height: 250px;
         border-radius: 2px;
+        margin-top: 20px;
+        width: 60%;
+    
+       
     }
 
     h2 {
-    font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
     }
 
-    li {
-        list-style-type: none;
+    p {
         font-size: 16px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
     }
 
 

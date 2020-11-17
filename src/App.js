@@ -5,14 +5,16 @@ import TutorialTemplate from './TutorialTemplate'
 export default function App() {
   return (
       <PageLayout>
-        <TutorialTemplate/>    
+        <TutorialTemplate/>  
+        <TutorialTemplate/>  
+        <TutorialTemplate/> 
       </PageLayout>
   );
 }
 
 const PageLayout = styled.div`
   display: grid;
-  grid-template-rows: 80px auto;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   position: relative;
   margin: 0;
 `

@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components/macro';
 
 export default createGlobalStyle`
-* {
+*, ::after, ::before {
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
@@ -9,8 +9,9 @@ export default createGlobalStyle`
 body {
     margin:0;
     font-size: 112.5%;
-    background-color: #BFBFAA;
-}
+    background-color:#A5A697;
+    color: #262626;
+    
 
 
 /* :root {
@@ -26,6 +27,7 @@ body {
 .KOTLIC-LAMP-3-hex darkkhaki{ color: #73715F; }
 .KOTLIC-LAMP-4-hex white{ color: #F2F2F2; }
 .KOTLIC-LAMP-5-hex black{ color: #0D0D0D; }
+.anthrazit color: #262626;
 */
 
 /* Color Theme Swatches in Hex 
