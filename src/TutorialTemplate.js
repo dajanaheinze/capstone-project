@@ -32,14 +32,14 @@ const TutorialWrapper = styled.div`
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 1em;
         font-weight: 500;
         text-align: center;
         text-transform: uppercase;
     }
 
     p {
-        font-size: 15px;
+        font-size: 0.8em;
         font-weight: 200;
         margin: 0;
         padding: 0 10px 0 10px;
