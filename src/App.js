@@ -5,8 +5,6 @@ export default function App() {
   return (
       <PageLayout>
         <TutorialTemplate/>  
-        <TutorialTemplate/>  
-        <TutorialTemplate/> 
       </PageLayout>
   );
 }

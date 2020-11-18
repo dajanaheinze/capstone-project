@@ -1,17 +1,27 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import meditation from './assets/image-meditation.jpg'
+import data from './data/content.json'
+import {useState, useEffect}from 'react'
+
+
 
 
 export default function TutorialTemplate (){
-    return (
-    <TutorialWrapper>
-        <img src={meditation} alt=""/>
-        <h2>5 Minuten...</h2>
-        <h3>Meditation</h3>
-        <p>Schritt 1 - wähle deinen Sitz. Setzt dich aufrecht auf den Boden mit gekreuzten Beinen oder auf einen Stuhl mit den Füßen am Boden. Lege deine Hände auf deinen Oberschenkeln ab. Schritt 2 - sei Still, schließ deine Augen. Schritt 3 - fokussiere, deinen Atem auf das Mantra las los. Mit jeder Einatmung denkst du las mit jeder Ausatmung denkst du los. Stell dir einen Timer auf 5 Minuten. Beobachte nach der Übung für einen kurzen Moment wie sich dein Körper anfühlt.</p>
+ 
+    const [content, setContent] = useState([])
+    useEffect(() => setContent(data.content), [])
+
+    return (<div>{content.map(({headline, title, image, description}) =>
+    (<TutorialWrapper>
+        <img src={image} alt=""/>
+        <h2>{headline}</h2>
+        <h3>{title}</h3>
+        <p>{description}</p>
     </TutorialWrapper>
-    )   
+    )
+    )}
+    </div>)
 }
 
 const TutorialWrapper = styled.div`
