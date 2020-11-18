@@ -1,17 +1,29 @@
 import { createGlobalStyle } from 'styled-components/macro';
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300&display=swap');
 
 export default createGlobalStyle`
-  *{
+*, ::after, ::before {
     box-sizing: border-box;
-  }  
+    font-family: 'Work Sans', sans-serif;
+}
 
-  html {
-      font-family: 'Work Sans', sans-serif;
-      font-size: 1.2em;
-  }
- 
-  body {
-    margin: 0;
-  }
-`;
+body {
+    margin:0;
+    font-size: 112.5%;
+    background-color: var(--primary-background);
+    color: var(--primary-text);
+}
+
+ :root {
+    --primary-background: #A5A697;
+    --secendary-background: #F2F2F2;
+    --primary-text: #080808;
+    --primary-border: #F2F2F2;
+    --primary-shadow: #8c8d80;
+    --secendary-shadow: #bebfae;
+
+    --primary-black: #0D0D0D;
+    --primary-anthrazit: #262626;
+    --primary-white:  #F2F2F2;
+
+}
+`
