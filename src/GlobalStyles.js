@@ -15,11 +15,11 @@ body {
 
  :root {
     --primary-background: #A5A697;
-    --secendary-background: #F2F2F2;
+    --secondary-background: #F2F2F2;
     --primary-text: #080808;
     --primary-border: #F2F2F2;
     --primary-shadow: #8c8d80;
-    --secendary-shadow: #bebfae;
+    --secondary-shadow: #bebfae;
 
     --primary-black: #0D0D0D;
     --primary-anthrazit: #262626;

@@ -7,8 +7,9 @@ export default function TutorialTemplate (){
     return (
     <TutorialWrapper>
         <img src={meditation} alt=""/>
-        <h2>5 Minuten of...</h2>
-        <p>Lorem ipsum dolor sit amet consectetur Quos accusamus libero minus ullam, beataelibero minus ullam, beatae possimus nostr</p>
+        <h2>5 Minuten...</h2>
+        <h3>Meditation</h3>
+        <p>Schritt 1 - wähle deinen Sitz. Setzt dich aufrecht auf den Boden mit gekreuzten Beinen oder auf einen Stuhl mit den Füßen am Boden. Lege deine Hände auf deinen Oberschenkeln ab. Schritt 2 - sei Still, schließ deine Augen. Schritt 3 - fokussiere, deinen Atem auf das Mantra las los. Mit jeder Einatmung denkst du las mit jeder Ausatmung denkst du los. Stell dir einen Timer auf 5 Minuten. Beobachte nach der Übung für einen kurzen Moment wie sich dein Körper anfühlt.</p>
     </TutorialWrapper>
     )   
 }
@@ -16,9 +17,9 @@ export default function TutorialTemplate (){
 const TutorialWrapper = styled.div`
     display: grid;
     border: 1px solid var(--primary-border);
-    background-color: var(--secendary-background); 
+    background-color: var(--secondary-background); 
     box-shadow:  20px 20px 60px var(--primary-shadow),
-                -10px -10px 50px var(--secendary-shadow);
+                -10px -10px 50px var(--secondary-shadow);
     margin-left: 60px;
     margin-top: 30px;
     padding:0 15px 20px 15px;
@@ -36,6 +37,12 @@ const TutorialWrapper = styled.div`
         font-weight: 500;
         text-align: center;
         text-transform: uppercase;
+    }
+    h3 {
+        font-size: 0.9em;
+        font-weight: 400;
+        margin-top: 0;
+        text-align: center;
     }
 
     p {
