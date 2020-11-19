@@ -1,19 +1,11 @@
-import { createGlobalStyle } from 'styled-components/macro';
+import { createGlobalStyle } from 'styled-components/macro'
 
 export default createGlobalStyle`
 *, ::after, ::before {
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
-
-body {
-    margin:0;
-    font-size: 112.5%;
-    background-color: var(--primary-background);
-    color: var(--primary-text);
-}
-
- :root {
+:root {
     --primary-background: #A5A697;
     --secondary-background: #F2F2F2;
     --primary-text: #080808;
@@ -25,5 +17,12 @@ body {
     --primary-anthrazit: #262626;
     --primary-white:  #F2F2F2;
 
+}
+
+body {
+    background-color: var(--primary-background);
+    color: var(--primary-text);
+    font-size: 112.5%;
+    margin:0;  
 }
 `
