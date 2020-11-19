@@ -12,6 +12,7 @@ export default function App() {
 const PageLayout = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-items: center;
   position: relative;
   margin: 0;
 `

@@ -35,7 +35,6 @@ const TutorialWrapper = styled.div`
   background-color: var(--secondary-background);
   box-shadow: 20px 20px 60px var(--primary-shadow),
     -10px -10px 50px var(--secondary-shadow);
-  margin-left: 60px;
   margin-top: 30px;
   padding: 0 15px 20px 15px;
   place-items: center;
