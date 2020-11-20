@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro'
-import TutorialTemplate from './TutorialTemplate'
+import TutorialTemplate from './components/TutorialTemplate'
 
 export default function App() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import data from './data/content.json'
+import data from '../data/content.json'
 
 export default function TutorialTemplate() {
   return (
