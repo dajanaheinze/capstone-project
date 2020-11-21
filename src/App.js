@@ -1,11 +1,11 @@
 import styled from 'styled-components/macro'
-import HeaderWrapper from './components/Header'
+import Header from './components/Header'
 import TutorialPage from './components/TutorialPage'
 
 export default function App() {
   return (
     <PageLayout>
-      <HeaderWrapper />
+      <Header headline="Mind Reset" />
       <TutorialPage />
     </PageLayout>
   )
