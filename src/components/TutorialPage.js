@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import data from './data/content.json'
+import data from '../data/content.json'
 
-export default function TutorialTemplate() {
+export default function TutorialPage() {
   return (
     <>
       {data.map(
@@ -36,9 +36,9 @@ const TutorialWrapper = styled.div`
   box-shadow: 20px 20px 60px var(--primary-shadow),
     -10px -10px 50px var(--secondary-shadow);
   margin-top: 30px;
-  padding: 0 15px 20px 15px;
+  padding: 0 15px 20px;
   place-items: center;
-  width: 70%;
+  width: 90%;
 
   img {
     border-radius: 2px;
@@ -64,8 +64,8 @@ const TutorialWrapper = styled.div`
     font-size: 0.8em;
     font-weight: 200;
     hyphens: auto;
-    margin: 10px 0 0 0;
-    padding: 0 10px 0 10px;
+    margin-top: 10px;
+    padding: 0 10px;
     text-align: center;
   }
 `

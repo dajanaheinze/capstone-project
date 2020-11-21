@@ -1,10 +1,10 @@
 import styled from 'styled-components/macro'
-import TutorialTemplate from './TutorialTemplate'
+import TutorialPage from './components/TutorialPage'
 
 export default function App() {
   return (
     <PageLayout>
-      <TutorialTemplate />
+      <TutorialPage />
     </PageLayout>
   )
 }
