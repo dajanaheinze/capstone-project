@@ -1,9 +1,11 @@
 import styled from 'styled-components/macro'
+import Header from './components/Header'
 import TutorialPage from './components/TutorialPage'
 
 export default function App() {
   return (
     <PageLayout>
+      <Header />
       <TutorialPage />
     </PageLayout>
   )
