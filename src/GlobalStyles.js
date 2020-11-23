@@ -24,5 +24,6 @@ body {
     color: var(--primary-text);
     font-size: 112.5%;
     margin:0;  
+   
 }
 `

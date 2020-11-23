@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Header'
+import Header from './AppHeader'
 
 export default {
   title: 'Components/Header',
@@ -7,7 +7,3 @@ export default {
 }
 
 export const Text = () => <Header>Header Text</Header>
-
-//const Template = (args) => <Header {...args} />
-
-//export const Primary = Template.bind({})

@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro'
-import Header from './components/Header'
+import Header from './components/AppHeader'
 import TutorialPage from './components/TutorialPage'
 
 export default function App() {
@@ -13,7 +13,9 @@ export default function App() {
 
 const PageLayout = styled.div`
   display: grid;
-  grid-template-rows: 70px auto;
-  margin-top: 10px;
+  grid-template-rows: 80px auto;
+  position: relative;
+  height: 100vh;
+  margin: 0;
   place-items: center;
 `
