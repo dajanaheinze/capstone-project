@@ -6,6 +6,8 @@ export default {
   component: Header,
 }
 
-const Template = (args) => <Header {...args} />
+export const Text = () => <Header>Header Text</Header>
 
-export const Primary = Template.bind({})
+//const Template = (args) => <Header {...args} />
+
+//export const Primary = Template.bind({})
