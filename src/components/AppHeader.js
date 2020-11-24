@@ -5,7 +5,7 @@ import { ReactComponent as Logo } from '../images/logo.svg'
 export default function AppHeader({ headline }) {
   return (
     <Header>
-      <LogoStyling />
+      <Logo />
       <Title>{headline}</Title>
     </Header>
   )
@@ -17,9 +17,10 @@ const Header = styled.header`
   place-items: center;
   position: relative;
   width: 100%;
-`
-const LogoStyling = styled(Logo)`
-  margin: 10px 0;
+
+  svg {
+    margin: 10px 0;
+  }
 `
 
 const Title = styled.h1`
