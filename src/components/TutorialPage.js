@@ -19,6 +19,7 @@ export default function TutorialPage() {
             <img src={image} alt="" />
             <h2>{headline}</h2>
             <h3>{title}</h3>
+            <button>play</button>
             <p>{description1}</p>
             <p>{description2}</p>
             <p>{description3}</p>
