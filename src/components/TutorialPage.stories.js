@@ -1,11 +1,11 @@
 import React from 'react'
-import TutorialTemplate from './TutorialTemplate'
+import TutorialPage from './TutorialPage'
 
 export default {
-  title: 'Components/Tutorial Template',
-  component: TutorialTemplate,
+  title: 'Components/Tutorial Page',
+  component: TutorialPage,
 }
 
-const Template = (args) => <TutorialTemplate {...args} />
+const Template = (args) => <TutorialPage {...args} />
 
 export const Primary = Template.bind({})
