@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import data from '../data/content.json'
+import AudioButton from './AudioButton'
 
 export default function TutorialPage() {
   return (
@@ -10,6 +11,7 @@ export default function TutorialPage() {
           headline,
           title,
           image,
+          audio,
           description1,
           description2,
           description3,
@@ -19,8 +21,8 @@ export default function TutorialPage() {
             <img src={image} alt="" />
             <h2>{headline}</h2>
             <h3>{title}</h3>
-            <button>play</button>
             <p>{description1}</p>
+            <AudioButton audio={audio}></AudioButton>
             <p>{description2}</p>
             <p>{description3}</p>
           </TutorialWrapper>
