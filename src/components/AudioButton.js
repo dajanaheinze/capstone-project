@@ -1,32 +1,32 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import { ReactComponent as PlayIcon } from '../images/playicondark.svg'
-import { ReactComponent as PauseIcon } from '../images/pauseicondark.svg'
 import { Howl } from 'howler'
 import { useEffect, useState, useRef } from 'react'
-import data from '../data/content.json'
+import { ReactComponent as PlayIcon } from '../images/playicondark.svg'
+import { ReactComponent as PauseIcon } from '../images/pauseicondark.svg'
 
-export default function AudioButton() {
+export default function AudioButton({ audiofile }) {
   const [isSoundPlaying, setIsSoundPlaying] = useState(false)
-  const soundRef = useRef(null) //Prüfen und Googlen wie einbauen
-  const audioFile = data.find((audio) => audio === audio.audio)
-  console.log(audioFile)
+  const soundRef = useRef(null)
 
-  const sound = new Howl({
-    src: [audioFile],
-    preload: true,
-    volume: 0.2,
-    autoplay: false,
-    onend: function () {
-      setIsSoundPlaying(false)
-    },
+  useEffect(() => {
+    soundRef.current?.stop()
+    soundRef.current = new Howl({
+      src: [audiofile],
+      preload: true,
+      volume: 0.2,
+      autoplay: false,
+      onend: function () {
+        setIsSoundPlaying(false)
+      },
+    })
   })
 
   useEffect(() => {
     if (isSoundPlaying) {
-      sound.play()
+      soundRef.current.play()
     } else {
-      sound.pause()
+      soundRef.current.pause()
     }
   })
 
