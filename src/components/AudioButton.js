@@ -8,6 +8,7 @@ import { ReactComponent as PauseIcon } from '../images/pauseicondark.svg'
 export default function AudioButton({ audiofile }) {
   const [isSoundPlaying, setIsSoundPlaying] = useState(false)
   const soundRef = useRef(null)
+  console.log(audiofile)
 
   useEffect(() => {
     soundRef.current?.stop()
@@ -15,7 +16,7 @@ export default function AudioButton({ audiofile }) {
       src: [audiofile],
       preload: true,
       volume: 0.2,
-      autoplay: false,
+      autoplay: true,
       onend: function () {
         setIsSoundPlaying(false)
       },

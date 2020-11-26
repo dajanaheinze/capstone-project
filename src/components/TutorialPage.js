@@ -22,7 +22,7 @@ export default function TutorialPage() {
             <h2>{headline}</h2>
             <h3>{title}</h3>
             <p>{description1}</p>
-            {audiofile && <AudioButton audio={audiofile} />}
+            {audiofile && <AudioButton audiofile={audiofile} />}
             <p>{description2}</p>
             <p>{description3}</p>
           </TutorialWrapper>

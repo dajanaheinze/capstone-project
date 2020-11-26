@@ -1,21 +1,19 @@
 [
   {
     "id": "01",
-    "headline": "2 MINUTEN…",
+    "headline": "3 MINUTEN…",
     "title": "Atemzüge zählen",
     "imagefile": "/images/atemzuege.jpg",
-    "audiofile": "/audio/test.mp3",
-    "description1": "Wähle einen aufrechten bequemen Sitz. Schließ deine Augen oder fokussiere deinen Blick auf einen Punkt der sich nicht bewegt. Ateme tief in deinem gesamten Brustkorb ein und wieder aus. Wiederhole dies drei mal ohne zu zählen. ",
-    "description2": "Bei dem nächsten Atemzug zähle bei der Einatmung und Ausatmung jeweils bis vier. Jeder Atemzug hat die länge von eins - vier. Einatmen in den gesamten Brustkorb zähle bis vier, Ausatmen Brustkorb senkt sich zähle bis vier."
+    "audiofile": "/audio/atemzaehlung.mp3",
+    "description1": "Wähle einen aufrechten bequemen Sitz. Schließ deine Augen oder fokussiere deinen Blick auf einen Punkt der sich nicht bewegt. Ateme tief in deinem gesamten Brustkorb ein und wieder aus. Wiederhole dies drei mal ohne zu zählen. "
   },
   {
     "id": "02",
     "headline": "5 MINUTEN…",
     "title": "Meditation",
     "imagefile": "/images/meditation.jpg",
-    "audiofile": "/audio/atemzaehlung.mp3",
-    "description1": "Setzt dich aufrecht auf den Boden mit gekreuzten Beinen oder auf einen Stuhl mit den Füßen am Boden. Lege deine Hände auf deinen Oberschenkeln ab. Sei Still, schließ deine Augen.",
-    "description2": "Fokussiere deinen Atem auf das Mantra las, los. Mit jeder Einatmung denkst du las mit jeder Ausatmung denkst du los. Stell dir einen Timer auf 5 Minuten. Beobachte nach der Übung für einen kurzen Moment wie sich dein Körper anfühlt."
+    "audiofile": "/audio/test.mp3",
+    "description1": "Setzt dich aufrecht auf den Boden mit gekreuzten Beinen oder auf einen Stuhl mit den Füßen am Boden. Lege deine Hände auf deinen Oberschenkeln ab. Sei Still, schließ deine Augen."
   },
   {
     "id": "03",
