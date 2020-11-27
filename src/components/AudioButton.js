@@ -8,10 +8,8 @@ import { ReactComponent as PauseIcon } from '../images/pauseicondark.svg'
 export default function AudioButton({ audiofile }) {
   const [isSoundPlaying, setIsSoundPlaying] = useState(false)
   const soundRef = useRef(null)
-  console.log(audiofile)
 
   useEffect(() => {
-    soundRef.current?.stop()
     soundRef.current = new Howl({
       src: [audiofile],
       preload: true,
@@ -21,7 +19,7 @@ export default function AudioButton({ audiofile }) {
         setIsSoundPlaying(false)
       },
     })
-  })
+  }, [])
 
   useEffect(() => {
     if (isSoundPlaying) {
@@ -29,17 +27,17 @@ export default function AudioButton({ audiofile }) {
     } else {
       soundRef.current.pause()
     }
-  })
+  }, [isSoundPlaying])
+
+  function toggleSound() {
+    setIsSoundPlaying(!isSoundPlaying)
+  }
 
   return (
     <Button onClick={toggleSound}>
       {isSoundPlaying ? <PauseIcon /> : <PlayIcon />}
     </Button>
   )
-
-  function toggleSound() {
-    setIsSoundPlaying(!isSoundPlaying)
-  }
 }
 
 const Button = styled.button`
