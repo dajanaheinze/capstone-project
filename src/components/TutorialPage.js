@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components/macro'
 import data from '../data/content.json'
 import AudioButton from './AudioButton'

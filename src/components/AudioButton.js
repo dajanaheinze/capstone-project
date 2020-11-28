@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components/macro'
 import { Howl } from 'howler'
 import { useEffect, useState, useRef } from 'react'
