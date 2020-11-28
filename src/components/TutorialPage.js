@@ -1,6 +1,6 @@
-import React from 'react'
 import styled from 'styled-components/macro'
 import data from '../data/content.json'
+import AudioButton from './AudioButton'
 
 export default function TutorialPage() {
   return (
@@ -9,17 +9,19 @@ export default function TutorialPage() {
         ({
           headline,
           title,
-          image,
+          imagefile,
+          audiofile,
           description1,
           description2,
           description3,
           id,
         }) => (
           <TutorialWrapper key={id}>
-            <img src={image} alt="" />
+            {imagefile && <img src={imagefile} alt="" />}
             <h2>{headline}</h2>
             <h3>{title}</h3>
             <p>{description1}</p>
+            {audiofile && <AudioButton audiofile={audiofile} />}
             <p>{description2}</p>
             <p>{description3}</p>
           </TutorialWrapper>
@@ -33,8 +35,7 @@ const TutorialWrapper = styled.div`
   display: grid;
   border: 1px solid var(--primary-border);
   background-color: var(--secondary-background);
-  box-shadow: 20px 20px 60px var(--primary-shadow),
-    -10px -10px 50px var(--secondary-shadow);
+  box-shadow: 20px 20px 60px var(--primary-shadow);
   margin-top: 15px;
   padding: 0 15px 20px;
   place-items: center;
