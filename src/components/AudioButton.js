@@ -42,4 +42,5 @@ export default function AudioButton({ audiofile }) {
 const Button = styled.button`
   background-color: transparent;
   border: none;
+  margin-top: 15px;
 `

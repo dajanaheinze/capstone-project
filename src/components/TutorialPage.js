@@ -1,34 +1,37 @@
 import styled from 'styled-components/macro'
-import data from '../data/content.json'
+import { useState } from 'react'
 import AudioButton from './AudioButton'
+import { ReactComponent as LotusNoFill } from '../images/lotus-small.svg'
+import { ReactComponent as LotusFill } from '../images/lotus-fill-small.svg'
 
-export default function TutorialPage() {
+export default function TutorialPage({
+  headline,
+  title,
+  imagefile,
+  audiofile,
+  description1,
+  description2,
+  description3,
+}) {
+  const [isBookmarkt, setIsBookmarkt] = useState(false)
+
   return (
-    <>
-      {data.map(
-        ({
-          headline,
-          title,
-          imagefile,
-          audiofile,
-          description1,
-          description2,
-          description3,
-          id,
-        }) => (
-          <TutorialWrapper key={id}>
-            {imagefile && <img src={imagefile} alt="" />}
-            <h2>{headline}</h2>
-            <h3>{title}</h3>
-            <p>{description1}</p>
-            {audiofile && <AudioButton audiofile={audiofile} />}
-            <p>{description2}</p>
-            <p>{description3}</p>
-          </TutorialWrapper>
-        )
-      )}
-    </>
+    <TutorialWrapper>
+      <BookmarkIcon onClick={() => toggleBookmark()}>
+        {isBookmarkt ? <LotusFill /> : <LotusNoFill />}
+      </BookmarkIcon>
+      <h2>{headline}</h2>
+      <h3>{title}</h3>
+      {imagefile && <img src={imagefile} alt="" />}
+      <p>{description1}</p>
+      {audiofile && <AudioButton audiofile={audiofile} />}
+      <p>{description2}</p>
+      <p>{description3}</p>
+    </TutorialWrapper>
   )
+  function toggleBookmark() {
+    setIsBookmarkt(!isBookmarkt)
+  }
 }
 
 const TutorialWrapper = styled.div`
@@ -40,10 +43,11 @@ const TutorialWrapper = styled.div`
   padding: 0 15px 20px;
   place-items: center;
   width: 90%;
+  height: auto;
 
   img {
     border-radius: 2px;
-    margin-top: 25px;
+    margin: 10px 10px;
     width: 80%;
   }
 
@@ -69,4 +73,8 @@ const TutorialWrapper = styled.div`
     padding: 0 10px;
     text-align: center;
   }
+`
+const BookmarkIcon = styled.button`
+  border: none;
+  margin-top: 10px;
 `
