@@ -2,10 +2,10 @@
   {
     "id": "01",
     "headline": "3 MINUTEN…",
-    "title": "Atemzüge zählen",
+    "title": "Fokus Atemzüge",
     "imagefile": "/images/atemzuege.jpg",
     "audiofile": "/audio/atemzaehlung.mp3",
-    "description1": "Wähle einen aufrechten bequemen Sitz. Schließ deine Augen oder fokussiere deinen Blick auf einen Punkt der sich nicht bewegt. Ateme tief in deinem gesamten Brustkorb ein und wieder aus. Wiederhole dies drei mal ohne zu zählen. "
+    "description1": "Setzt dich auf einen Stuhl oder auf dem Boden. Drück Play und schließe deine Augen. "
   },
   {
     "id": "02",
@@ -13,14 +13,14 @@
     "title": "Meditation",
     "imagefile": "/images/meditation.jpg",
     "audiofile": "/audio/test.mp3",
-    "description1": "Setzt dich aufrecht auf den Boden mit gekreuzten Beinen oder auf einen Stuhl mit den Füßen am Boden. Lege deine Hände auf deinen Oberschenkeln ab. Sei Still, schließ deine Augen."
+    "description1": "Wähle einen für dich bequemen aufrecht sitz, auf dem Boden mit gekreuzten Beinen oder auf einen Stuhl. Drück Play und schließe deine Augen. "
   },
   {
     "id": "03",
     "headline": "10 MINUTEN…",
     "title": "Bodyscan",
-    "description1": "Setz dich auf einen Stuhl. Die Beine sind angewinkelt, die Füsse berühren den Boden. Lenk deinen Fokus auf dein inneres deine Gedanken und dein Körper. Wie fühlt sich dein Körper jetzt an, welche Gedanken kommen. Nimm diese nur wahr ohne sie zu bewerten.",
-    "description2": "Beginn damit gedanklich durch deinen Körper zu wandern. Starte bei den Füssen. Achte bei jeder Körperregion genau darauf sie sie sich anfühlt. Sei bewusst dabei. Wenn Gedanken aufkommen nimm diese war, schweif nicht ab in die Gedanken.",
+    "description1": "Setz dich auf einen Stuhl. Die Beine sind angewinkelt, die Füsse berühren den Boden. Lenk deinen Fokus auf deine Gedanken und deinen Körper. Wie fühlt sich dein Körper gerade an, wo sind deine Gedanken. Nimm deine Gedanken nur wahr ohne sie zu bewerten.",
+    "description2": "Beginn gedanklich durch deinen Körper zu wandern. Starte bei den Füssen. Achte bei jeder Körperregion genau darauf wie sie sich anfühlt. Sei bewusst dabei. Wenn Gedanken aufkommen nimm diese war, schweif nicht ab in die Gedanken.",
     "description3": "Die letzten Minuten des Bodyscan, sei entspannt. Du musst dich auf nichts mehr konzentrieren, lass alle Gedanken und Wahrnehmungen los. Zum Abschluss lenk deinen Fokus noch einmal auf deinen Körper, nimm wahr wie er sich jetzt anfühlt."
   }
 ]
