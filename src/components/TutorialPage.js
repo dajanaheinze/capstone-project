@@ -13,24 +13,24 @@ export default function TutorialPage({
   description2,
   description3,
 }) {
-  const [isBookmarkt, setIsBookmarkt] = useState(false)
+  const [isBookmarked, setIsBookmarked] = useState(false)
 
   return (
     <TutorialWrapper>
       <BookmarkIcon onClick={() => toggleBookmark()}>
-        {isBookmarkt ? <LotusFill /> : <LotusNoFill />}
+        {isBookmarked ? <LotusFill /> : <LotusNoFill />}
       </BookmarkIcon>
       <h2>{headline}</h2>
       <h3>{title}</h3>
       {imagefile && <img src={imagefile} alt="" />}
-      <p>{description1}</p>
       {audiofile && <AudioButton audiofile={audiofile} />}
+      <p>{description1}</p>
       <p>{description2}</p>
       <p>{description3}</p>
     </TutorialWrapper>
   )
   function toggleBookmark() {
-    setIsBookmarkt(!isBookmarkt)
+    setIsBookmarked(!isBookmarked)
   }
 }
 
@@ -47,7 +47,7 @@ const TutorialWrapper = styled.div`
 
   img {
     border-radius: 2px;
-    margin: 10px 10px;
+    margin: 10px 0 10px;
     width: 80%;
   }
 

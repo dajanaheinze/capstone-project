@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import { ReactComponent as Logo } from '../images/lotus-fill-small.svg'
+import { ReactComponent as Logo } from '../images/lotus-small.svg'
 
 export default function AppHeader({ headline }) {
   return (
