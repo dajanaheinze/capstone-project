@@ -1,9 +1,10 @@
 import data from '../data/content.json'
+import styled from 'styled-components/macro'
 import TutorialPage from './TutorialPage'
 
 export default function TutorialList() {
   return (
-    <>
+    <div>
       {data.map(
         ({
           headline,
@@ -30,6 +31,9 @@ export default function TutorialList() {
           )
         }
       )}
-    </>
+    </div>
   )
 }
+const TutorialListStyled = styled.div`
+  display: grid;
+`
