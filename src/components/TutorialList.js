@@ -4,7 +4,7 @@ import TutorialPage from './TutorialPage'
 
 export default function TutorialList() {
   return (
-    <div>
+    <TutorialListStyled>
       {data.map(
         ({
           headline,
@@ -31,9 +31,11 @@ export default function TutorialList() {
           )
         }
       )}
-    </div>
+    </TutorialListStyled>
   )
 }
 const TutorialListStyled = styled.div`
   display: grid;
+  place-items: center;
+  overflow: auto;
 `
