@@ -9,9 +9,11 @@ export default createGlobalStyle`
     --primary-background: #A5A697;
     --secondary-background: #F2F2F2;
     --primary-text: #080808;
+    --secondary-text:#323331;
     --primary-border: #F2F2F2;
     --primary-shadow: #8c8d80;
     --secondary-shadow: #bebfae;
+    --tertiary-shadow: #757670;
 
     --primary-black: #0D0D0D;
     --primary-anthrazit: #262626;

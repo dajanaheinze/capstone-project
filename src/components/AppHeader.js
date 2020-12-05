@@ -14,6 +14,8 @@ export default function AppHeader({ headline }) {
 const Header = styled.header`
   display: grid;
   background-color: var(--primary-background);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 20px 0 20px var(--tertiary-shadow);
   place-items: center;
   position: relative;
   width: 100%;
@@ -28,7 +30,7 @@ const Title = styled.h1`
   font-size: 1.7em;
   font-weight: 500;
   letter-spacing: 5px;
-  margin: 0;
+  margin: 0 0 0 28px;
   text-align: center;
   text-transform: uppercase;
 `

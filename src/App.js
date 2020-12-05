@@ -4,18 +4,18 @@ import TutorialList from './components/TutorialList'
 
 export default function App() {
   return (
-    <PageLayout>
+    <AppLayout>
       <Header headline="Mind Reset" />
       <TutorialList />
-    </PageLayout>
+    </AppLayout>
   )
 }
 
-const PageLayout = styled.div`
+const AppLayout = styled.div`
   display: grid;
   grid-template-rows: 90px auto;
   position: relative;
   height: 100vh;
   margin: 0;
-  place-items: center;
+  max-width: 600px;
 `
