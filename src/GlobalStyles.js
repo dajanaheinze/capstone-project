@@ -13,7 +13,7 @@ export default createGlobalStyle`
     --primary-border: #F2F2F2;
     --primary-shadow: #8c8d80;
     --secondary-shadow: #bebfae;
-    --third-shadow: #757670;
+    --tertiary-shadow: #757670;
 
     --primary-black: #0D0D0D;
     --primary-anthrazit: #262626;

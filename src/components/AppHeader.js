@@ -14,9 +14,8 @@ export default function AppHeader({ headline }) {
 const Header = styled.header`
   display: grid;
   background-color: var(--primary-background);
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  box-shadow: 20px 0 20px var(--third-shadow);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 20px 0 20px var(--tertiary-shadow);
   place-items: center;
   position: relative;
   width: 100%;
