@@ -8,12 +8,20 @@
     "description1": "Setzt dich auf einen Stuhl oder auf dem Boden. Drück Play und schließe deine Augen. "
   },
   {
+    "id": "04",
+    "headline": "Einfach nur...",
+    "title": "Lächeln",
+    "imagefile": "/images/lachen.jpg",
+    "description1": "Eine kleine feine Achtsamkeitsübung, dass Lächeln. Uns selber einfach mal zu lächeln, ganz leicht das sich vielleicht nur die Mundwinkel minimal anheben. Schließ dabei gern die Augen so kannst, du dich noch besser auf das Gefühl konzentrieren.",
+    "description2": "Versuch diese Übung auch, wenn dir nicht nach Lächeln zu mute ist. Beim Lächeln schüttet das Gehirn Glückshormone aus dies beruhigt den Geist und den Körper."
+  },
+  {
     "id": "02",
     "headline": "5 MINUTEN…",
     "title": "Meditation",
     "imagefile": "/images/meditation.jpg",
     "audiofile": "/audio/test.mp3",
-    "description1": "Wähle einen für dich bequemen aufrecht sitz, auf dem Boden mit gekreuzten Beinen oder auf einen Stuhl. Drück Play und schließe deine Augen. "
+    "description1": "Wähle einen für dich bequemen aufrecht Sitz, auf dem Boden mit gekreuzten Beinen oder auf einen Stuhl. Drück Play und schließe deine Augen. "
   },
   {
     "id": "03",
@@ -22,5 +30,14 @@
     "description1": "Setz dich auf einen Stuhl. Die Beine sind angewinkelt, die Füsse berühren den Boden. Lenk deinen Fokus auf deine Gedanken und deinen Körper. Wie fühlt sich dein Körper gerade an, wo sind deine Gedanken. Nimm deine Gedanken nur wahr ohne sie zu bewerten.",
     "description2": "Beginn gedanklich durch deinen Körper zu wandern. Starte bei den Füssen. Achte bei jeder Körperregion genau darauf wie sie sich anfühlt. Sei bewusst dabei. Wenn Gedanken aufkommen nimm diese war, schweif nicht ab in die Gedanken.",
     "description3": "Die letzten Minuten des Bodyscan, sei entspannt. Du musst dich auf nichts mehr konzentrieren, lass alle Gedanken und Wahrnehmungen los. Zum Abschluss lenk deinen Fokus noch einmal auf deinen Körper, nimm wahr wie er sich jetzt anfühlt."
+  },
+  {
+    "id": "05",
+    "headline": "Mini...",
+    "title": "Yogaflow",
+    "imagefile": "/images/surya-namaska.jpg",
+    "audiofile": "/audio/surya-namaska.mp3",
+    "description1": "Surya Namaska der Sonnengruß. Gibt Energie und bringt unsere Gedanken zur Ruhe. ",
+    "description2": "Die Meditation in Bewertung. Durch bewusstes üben und die Synchronisierung von Atem und Bewegung ist kein Platz für andere Gedanken. Drück Play und genieße diesen Energieschub."
   }
 ]
