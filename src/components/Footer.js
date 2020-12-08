@@ -1,17 +1,31 @@
 import styled from 'styled-components/macro'
-//import { Link } from 'react-router-dom'
-import { ReactComponent as home } from '../images/home.svg'
-import { ReactComponent as about } from '../images/about.svg'
+import { NavLink } from 'react-router-dom'
+import { ReactComponent as Home } from '../images/home.svg'
+import { ReactComponent as About } from '../images/about.svg'
 
 export default function Footer() {
   return (
-    <div>
-      <div>
-        <img src={home} alt="" />
-      </div>
-      <div>
-        <img src={about} alt="" />
-      </div>
-    </div>
+    <FooterStyled>
+      <nav>
+        <NavLink to="/">
+          <Home />
+        </NavLink>
+        <NavLink to="/about">
+          <About />
+        </NavLink>
+      </nav>
+    </FooterStyled>
   )
 }
+
+const FooterStyled = styled.footer`
+  position: relative;
+  display: grid;
+  place-items: center;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+`
