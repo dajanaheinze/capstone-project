@@ -19,13 +19,22 @@ export default function Footer() {
 }
 
 const FooterStyled = styled.footer`
-  position: relative;
   display: grid;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px var(--tertiary-shadow);
   place-items: center;
+  position: relative;
+  margin: 0 10px 5px 10px;
 
   nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 70%;
+  }
+
+  svg {
+    outline: 0;
+    width: 60%;
   }
 `

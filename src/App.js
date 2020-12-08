@@ -26,7 +26,7 @@ export default function App() {
 
 const AppLayout = styled.div`
   display: grid;
-  grid-template-rows: 100px auto 60px;
+  grid-template-rows: 100px auto 48px;
   position: relative;
   height: 100vh;
   margin: 0;

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48.75" height="48.75" viewBox="0 0 48.75 48.75">
   <g id="Icon_ionic-ios-information-circle-outline" data-name="Icon ionic-ios-information-circle-outline" transform="translate(-5.625 -5.625)">
-    <path id="Pfad_21" data-name="Pfad 21" d="M27.586,20.18a2.415,2.415,0,1,1,2.4,2.344A2.346,2.346,0,0,1,27.586,20.18Zm.164,4.184h4.477V41.25H27.75Z" fill="#797a74"/>
-    <path id="Pfad_22" data-name="Pfad 22" d="M30,8.906a21.085,21.085,0,1,1-14.918,6.176A20.954,20.954,0,0,1,30,8.906m0-3.281A24.375,24.375,0,1,0,54.375,30,24.371,24.371,0,0,0,30,5.625Z" fill="#797a74"/>
+    <path id="Pfad_21" data-name="Pfad 21" d="M27.586,20.18a2.415,2.415,0,1,1,2.4,2.344A2.346,2.346,0,0,1,27.586,20.18Zm.164,4.184h4.477V41.25H27.75Z" fill="#595A55"/>
+    <path id="Pfad_22" data-name="Pfad 22" d="M30,8.906a21.085,21.085,0,1,1-14.918,6.176A20.954,20.954,0,0,1,30,8.906m0-3.281A24.375,24.375,0,1,0,54.375,30,24.371,24.371,0,0,0,30,5.625Z" fill="#595A55"/>
   </g>
 </svg>
