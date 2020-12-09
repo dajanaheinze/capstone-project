@@ -9,7 +9,6 @@ export default function App() {
   return (
     <AppLayout>
       <Header headline="Mind Reset" />
-
       <Switch>
         <Route path="/" exact>
           <TutorialList />
@@ -26,8 +25,13 @@ export default function App() {
 
 const AppLayout = styled.div`
   display: grid;
-  grid-template-rows: 100px auto 48px;
+  //grid-template-rows: 100px auto;
   position: relative;
   height: 100vh;
   margin: 0;
+
+  //position: fixed;
+  //bottom: 20px;
+  //left: 0;
+  //right: 0;
 `

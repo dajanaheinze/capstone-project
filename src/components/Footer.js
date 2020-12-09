@@ -20,17 +20,20 @@ export default function Footer() {
 
 const FooterStyled = styled.footer`
   display: grid;
+  align-self: flex-end;
+  background-color: var(--primary-background);
   border-radius: 20px;
-  box-shadow: 10px 10px 10px 10px var(--tertiary-shadow);
-  place-items: center;
-  position: relative;
-  margin: 0 10px 5px 10px;
+  box-shadow: 8px 8px 10px var(--tertiary-shadow);
+  bottom: 10px;
+  left: 10px;
+  position: fixed;
+  width: 95%;
+  //z-index: 999;
 
   nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 70%;
   }
 
   svg {
