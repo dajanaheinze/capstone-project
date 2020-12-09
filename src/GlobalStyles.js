@@ -14,10 +14,7 @@ export default createGlobalStyle`
     --primary-shadow: #8c8d80;
     --secondary-shadow: #bebfae;
     --tertiary-shadow: #757670;
-
-    --primary-black: #0D0D0D;
-    --primary-anthrazit: #262626;
-    --primary-white:  #F2F2F2;
+    --primary-headline: #262626;
 
 }
 
@@ -45,7 +42,6 @@ h2 {
   p {
     font-size: 0.8em;
     font-weight: 200;
-    hyphens: auto;
     margin-top: 10px;
     padding: 0 10px;
     text-align: center;

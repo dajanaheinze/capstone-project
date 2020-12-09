@@ -39,11 +39,11 @@ const TutorialWrapper = styled.div`
   border: 1px solid var(--primary-border);
   background-color: var(--secondary-background);
   box-shadow: 20px 20px 60px var(--primary-shadow);
+  height: auto;
   margin-top: 15px;
   padding: 0 15px 20px;
   place-items: center;
   width: 90%;
-  height: auto;
 
   img {
     border-radius: 2px;
@@ -54,4 +54,5 @@ const TutorialWrapper = styled.div`
 const BookmarkIcon = styled.button`
   border: none;
   margin-top: 10px;
+  width: 80%;
 `
