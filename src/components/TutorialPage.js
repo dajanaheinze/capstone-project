@@ -48,7 +48,7 @@ const TutorialWrapper = styled.div`
   img {
     border-radius: 2px;
     margin: 10px 0 10px;
-    width: 80%;
+    width: 90%;
   }
 `
 const BookmarkIcon = styled.button`

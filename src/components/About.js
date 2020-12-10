@@ -1,12 +1,20 @@
 import styled from 'styled-components/macro'
+import data from '../data/about.json'
 
 export default function AboutPage() {
   return (
-    <AboutPageStyled>
-      <h2>Hallo</h2>
-      <p>Hallo ich bin die About Page</p>
-    </AboutPageStyled>
-  )
+   
+      {data.map((
+        headline,
+        description,
+        description1,
+
+      ))}
+  //     <AboutPageStyled>
+  //     <h2>{headline}</h2>
+  //     <p>{description}</p>
+  //     </AboutPageStyled>
+  // )
 }
 
 const AboutPageStyled = styled.div`
