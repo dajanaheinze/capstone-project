@@ -6,10 +6,10 @@ import { ReactComponent as About } from '../images/about.svg'
 export default function Footer() {
   return (
     <FooterStyled>
-      <NavLinkStyled to="/">
+      <NavLinkStyled exact to="/">
         <Home />
       </NavLinkStyled>
-      <NavLinkStyled to="/about">
+      <NavLinkStyled exact to="/about">
         <About />
       </NavLinkStyled>
     </FooterStyled>
