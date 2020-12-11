@@ -38,4 +38,11 @@ const TutorialListStyled = styled.div`
   display: grid;
   place-items: center;
   overflow: auto;
+
+  &::after {
+    content: ' ';
+    display: block;
+    height: 40px;
+    width: 60%;
+  }
 `
