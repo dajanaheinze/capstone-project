@@ -1,6 +1,16 @@
 [
   {
+    "id": "40",
     "headline": "About...",
+    "title": "Mindfulness",
+    "description": "Die kleine Auszeit um mal einen Moment aus dem Alltag raus zu kommen, den Kopf frei zu bekommen und zur Ruhe zu kommen. Den Stress zu reduzieren.",
+    "description1": "Achtsamkeit hilft uns bei der Stressbewältigung in dem wir unsere eigenen Gedanken, Körperempfindung und Emotionen in der Situation in der man wir uns befinden bewusst wahr nimmt. Meist läuft bei uns ein gelernter automatisches ab und wir bekommen nicht richtig mit was passiert.",
+    "descpiption2": "Die kleinen Übungen helfen uns bei zurück zu unserer Wahrnehmung zu kommen und unsere Handlungen, Gefühle und Gedanken bewusster wahr zu nehmen."
+  },
+  {
+    "id": "50",
+    "headline": "About...",
+    "title": "Stress",
     "description": "Die kleine Auszeit um mal einen Moment aus dem Alltag raus zu kommen, den Kopf frei zu bekommen und zur Ruhe zu kommen. Den Stress zu reduzieren.",
     "description1": "Achtsamkeit hilft uns bei der Stressbewältigung in dem wir unsere eigenen Gedanken, Körperempfindung und Emotionen in der Situation in der man wir uns befinden bewusst wahr nimmt. Meist läuft bei uns ein gelernter automatisches ab und wir bekommen nicht richtig mit was passiert.",
     "descpiption2": "Die kleinen Übungen helfen uns bei zurück zu unserer Wahrnehmung zu kommen und unsere Handlungen, Gefühle und Gedanken bewusster wahr zu nehmen."

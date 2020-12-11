@@ -17,8 +17,9 @@ export default function App() {
           <AboutPage />
         </Route>
       </Switch>
-
-      <Footer />
+      <FooterLayout>
+        <Footer />
+      </FooterLayout>
     </AppLayout>
   )
 }
@@ -29,9 +30,12 @@ const AppLayout = styled.div`
   position: relative;
   height: 100vh;
   margin: 0;
-
-  //position: fixed;
-  //bottom: 20px;
-  //left: 0;
-  //right: 0;
+`
+const FooterLayout = styled.div`
+  display: grid;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  position: fixed;
+  place-items: center;
 `

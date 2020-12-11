@@ -44,7 +44,6 @@ h2 {
     font-weight: 200;
     margin-top: 10px;
     padding: 0 10px;
-    //text-align: center;
   }
 
 `
