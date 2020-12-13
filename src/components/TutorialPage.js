@@ -36,13 +36,13 @@ export default function TutorialPage({
 
 const TutorialWrapper = styled.div`
   display: grid;
+  place-items: center;
   border: 1px solid var(--primary-border);
   background-color: var(--secondary-background);
   box-shadow: 20px 20px 60px var(--primary-shadow);
   height: auto;
   margin-top: 15px;
   padding: 0 15px 20px;
-  place-items: center;
   width: 90%;
 
   img {

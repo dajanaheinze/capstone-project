@@ -3,7 +3,7 @@ import styled from 'styled-components/macro'
 import Header from './components/AppHeader'
 import TutorialList from './components/TutorialList'
 import Footer from './components/Footer'
-import AboutPage from './components/About'
+import AboutPage from './components/AboutPage'
 
 export default function App() {
   return (
