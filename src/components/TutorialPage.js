@@ -55,4 +55,6 @@ const BookmarkIcon = styled.button`
   border: none;
   margin-top: 10px;
   width: 80%;
+  &:focus {
+    outline: none;
 `
