@@ -14,10 +14,7 @@ export default createGlobalStyle`
     --primary-shadow: #8c8d80;
     --secondary-shadow: #bebfae;
     --tertiary-shadow: #757670;
-
-    --primary-black: #0D0D0D;
-    --primary-anthrazit: #262626;
-    --primary-white:  #F2F2F2;
+    --primary-headline: #262626;
 
 }
 
@@ -28,4 +25,25 @@ body {
     margin:0;  
    
 }
+h2 {
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-size: 0.8em;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 0.8em;
+    font-weight: 200;
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+
 `

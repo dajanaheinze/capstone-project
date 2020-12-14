@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import { ReactComponent as Logo } from '../images/lotus-small.svg'
+import { ReactComponent as Logo } from '../images/home.svg'
 
 export default function AppHeader({ headline }) {
   return (
@@ -21,16 +21,16 @@ const Header = styled.header`
   width: 100%;
 
   svg {
-    margin-top: 5px;
+    width: 10%;
   }
 `
 
 const Title = styled.h1`
-  color: var(--primary-text);
+  color: var(--primary-headline);
   font-size: 1.7em;
-  font-weight: 500;
+  font-weight: 300;
   letter-spacing: 5px;
-  margin: 0 0 0 28px;
+  margin: 0 0 10px 28px;
   text-align: center;
   text-transform: uppercase;
 `

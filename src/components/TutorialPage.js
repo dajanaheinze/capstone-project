@@ -17,9 +17,9 @@ export default function TutorialPage({
 
   return (
     <TutorialWrapper>
-      <BookmarkIcon onClick={() => toggleBookmark()}>
+      <BookmarkButton onClick={() => toggleBookmark()}>
         {isBookmarked ? <LotusFill /> : <LotusNoFill />}
-      </BookmarkIcon>
+      </BookmarkButton>
       <h2>{headline}</h2>
       <h3>{title}</h3>
       {imagefile && <img src={imagefile} alt="" />}
@@ -36,45 +36,25 @@ export default function TutorialPage({
 
 const TutorialWrapper = styled.div`
   display: grid;
+  place-items: center;
   border: 1px solid var(--primary-border);
   background-color: var(--secondary-background);
   box-shadow: 20px 20px 60px var(--primary-shadow);
+  height: auto;
   margin-top: 15px;
   padding: 0 15px 20px;
-  place-items: center;
   width: 90%;
-  height: auto;
 
   img {
     border-radius: 2px;
     margin: 10px 0 10px;
-    width: 80%;
-  }
-
-  h2 {
-    font-size: 1em;
-    font-weight: 500;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  h3 {
-    font-size: 0.8em;
-    font-weight: 400;
-    margin-top: 0;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  p {
-    font-size: 0.8em;
-    font-weight: 200;
-    hyphens: auto;
-    margin-top: 10px;
-    padding: 0 10px;
-    text-align: center;
+    width: 90%;
   }
 `
-const BookmarkIcon = styled.button`
+const BookmarkButton = styled.button`
   border: none;
   margin-top: 10px;
+  width: 80%;
+  &:focus {
+    outline: none;
 `
