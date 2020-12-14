@@ -1,16 +1,16 @@
 import styled from 'styled-components/macro'
 import { NavLink } from 'react-router-dom'
-import { ReactComponent as Home } from '../images/home.svg'
-import { ReactComponent as About } from '../images/about.svg'
+import { ReactComponent as HomeIcon } from '../images/home.svg'
+import { ReactComponent as AboutIcon } from '../images/about.svg'
 
 export default function Footer() {
   return (
     <FooterStyled>
       <NavLinkStyled exact to="/">
-        <Home />
+        <HomeIcon />
       </NavLinkStyled>
       <NavLinkStyled exact to="/about">
-        <About />
+        <AboutIcon />
       </NavLinkStyled>
     </FooterStyled>
   )

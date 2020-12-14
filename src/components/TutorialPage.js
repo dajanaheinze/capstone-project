@@ -17,9 +17,9 @@ export default function TutorialPage({
 
   return (
     <TutorialWrapper>
-      <BookmarkIcon onClick={() => toggleBookmark()}>
+      <BookmarkButton onClick={() => toggleBookmark()}>
         {isBookmarked ? <LotusFill /> : <LotusNoFill />}
-      </BookmarkIcon>
+      </BookmarkButton>
       <h2>{headline}</h2>
       <h3>{title}</h3>
       {imagefile && <img src={imagefile} alt="" />}
@@ -51,7 +51,7 @@ const TutorialWrapper = styled.div`
     width: 90%;
   }
 `
-const BookmarkIcon = styled.button`
+const BookmarkButton = styled.button`
   border: none;
   margin-top: 10px;
   width: 80%;
