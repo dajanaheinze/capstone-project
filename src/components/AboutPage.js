@@ -24,7 +24,7 @@ const AboutPageWrapper = styled.div`
   background-color: var(--secondary-background);
   box-shadow: 20px 20px 60px var(--primary-shadow);
   margin: 15px 0 0 20px;
-  height: 400px;
+  height: auto;
   padding: 0 15px 20px;
   width: 90%;
 
