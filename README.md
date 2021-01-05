@@ -1,7 +1,11 @@
+## MIND RESET - The Mindfulness App
+
+![mindreset-header](src/images/mindreset-readme-header.jpg)
+
 ## Motivation
 
 This projekt was create as a part of the Web Development Bootcamp from neuefische GmbH. \
-The Mind Reset App gives you short tutorials on how to practise mindfullness in daily buisness.
+The Mind Reset App gives you short tutorials on how to practise mindfulness in daily buisness.
 
 ## Mockup
 
